@@ -1,0 +1,6 @@
+framework module Pods_ViveitUITests {
+  umbrella header "Pods-ViveitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
