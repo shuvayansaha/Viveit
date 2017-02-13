@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D41CD7EE7CC03EEF8E525F4 /* Pods_ViveitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDF3F46459FEABB01B83303 /* Pods_ViveitTests.framework */; };
+		53B2A4FBC6F8B693BE6A1F9D /* Pods_Viveit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4357E5BD5967C6557262603 /* Pods_Viveit.framework */; };
+		5EA9327736AB9C26ED609637 /* Pods_ViveitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70C56EA6F60CD042B429A9D /* Pods_ViveitUITests.framework */; };
+		7E27E9FB1DEEA4A9004EAC65 /* DashboardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E27E9FA1DEEA4A9004EAC65 /* DashboardStoryboard.storyboard */; };
+		7E27E9FD1DEEB5F5004EAC65 /* NoNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27E9FC1DEEB5F5004EAC65 /* NoNotificationVC.swift */; };
 		7E6391201DB9DE8A0093F2D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63911F1DB9DE8A0093F2D4 /* AppDelegate.swift */; };
 		7E6391221DB9DE8A0093F2D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391211DB9DE8A0093F2D4 /* ViewController.swift */; };
 		7E6391251DB9DE8A0093F2D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6391231DB9DE8A0093F2D4 /* Main.storyboard */; };
@@ -14,6 +19,34 @@
 		7E63912A1DB9DE8A0093F2D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6391281DB9DE8A0093F2D4 /* LaunchScreen.storyboard */; };
 		7E6391351DB9DE8A0093F2D4 /* ViveitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391341DB9DE8A0093F2D4 /* ViveitTests.swift */; };
 		7E6391401DB9DE8A0093F2D4 /* ViveitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63913F1DB9DE8A0093F2D4 /* ViveitUITests.swift */; };
+		7E6391501DB9F7FC0093F2D4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63914F1DB9F7FC0093F2D4 /* HomeVC.swift */; };
+		7E6391521DB9F8320093F2D4 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391511DB9F8320093F2D4 /* RegisterVC.swift */; };
+		7E6391541DB9F8500093F2D4 /* Register2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391531DB9F8500093F2D4 /* Register2VC.swift */; };
+		7E6391561DB9F87C0093F2D4 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391551DB9F87C0093F2D4 /* SignInVC.swift */; };
+		7E6391581DB9F8910093F2D4 /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391571DB9F8910093F2D4 /* ForgotVC.swift */; };
+		7E63915A1DB9F8B40093F2D4 /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391591DB9F8B40093F2D4 /* DashBoardVC.swift */; };
+		7E63915E1DB9F9170093F2D4 /* DashboardCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63915D1DB9F9170093F2D4 /* DashboardCustomCell.swift */; };
+		7E6391601DB9F9490093F2D4 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63915F1DB9F9490093F2D4 /* DetailVC.swift */; };
+		7E6391641DB9F9910093F2D4 /* DetailsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391631DB9F9910093F2D4 /* DetailsCustomCell.swift */; };
+		7E6391661DB9F9AF0093F2D4 /* DescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391651DB9F9AF0093F2D4 /* DescriptionVC.swift */; };
+		7E6391681DB9F9C20093F2D4 /* RegisterDashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391671DB9F9C20093F2D4 /* RegisterDashboardVC.swift */; };
+		7E63916A1DB9F9D60093F2D4 /* TransactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391691DB9F9D60093F2D4 /* TransactionVC.swift */; };
+		7E63916C1DB9FA060093F2D4 /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63916B1DB9FA060093F2D4 /* ContactVC.swift */; };
+		7E63916E1DB9FA1E0093F2D4 /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63916D1DB9FA1E0093F2D4 /* EditVC.swift */; };
+		7E6391701DB9FA300093F2D4 /* LogOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63916F1DB9FA300093F2D4 /* LogOutVC.swift */; };
+		7E6391721DB9FA410093F2D4 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391711DB9FA410093F2D4 /* NotificationVC.swift */; };
+		7E6391761DB9FA720093F2D4 /* NotificationCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391751DB9FA720093F2D4 /* NotificationCustomCell.swift */; };
+		7E6391781DB9FA8D0093F2D4 /* NotificationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391771DB9FA8D0093F2D4 /* NotificationDetailsVC.swift */; };
+		7E63917A1DB9FAA00093F2D4 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6391791DB9FAA00093F2D4 /* ContactUsVC.swift */; };
+		7E63917C1DB9FABD0093F2D4 /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63917B1DB9FABD0093F2D4 /* AboutUsVC.swift */; };
+		7E63917E1DB9FDCF0093F2D4 /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E63917D1DB9FDCF0093F2D4 /* HomeStoryboard.storyboard */; };
+		7EA546671DFE935F0026ED95 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA546661DFE935F0026ED95 /* APIManager.swift */; };
+		7EA5E9941E1E164400F30C45 /* SettlementLockerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA5E9931E1E164400F30C45 /* SettlementLockerVC.swift */; };
+		7EA5E9961E1E257C00F30C45 /* PayTmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA5E9951E1E257C00F30C45 /* PayTmVC.swift */; };
+		7EA5E99A1E1E6EF100F30C45 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA5E9991E1E6EF100F30C45 /* SplashScreenVC.swift */; };
+		7EC646C31DF978D200F3C9B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EC646C21DF978D200F3C9B8 /* GoogleService-Info.plist */; };
+		7ECFB7E01E24CC3700552073 /* ForgotVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECFB7DF1E24CC3700552073 /* ForgotVC2.swift */; };
+		7ECFB7E21E24CC8800552073 /* ForgotVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECFB7E11E24CC8800552073 /* ForgotVC3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +67,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B1AE43A40900B1EBE480FF1 /* Pods-ViveitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViveitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViveitUITests/Pods-ViveitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1BDF3F46459FEABB01B83303 /* Pods_ViveitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViveitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D861B464939F1355F66F0CF /* Pods-ViveitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViveitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViveitTests/Pods-ViveitTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E27E9FA1DEEA4A9004EAC65 /* DashboardStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DashboardStoryboard.storyboard; sourceTree = "<group>"; };
+		7E27E9FC1DEEB5F5004EAC65 /* NoNotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoNotificationVC.swift; sourceTree = "<group>"; };
 		7E63911C1DB9DE8A0093F2D4 /* Viveit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viveit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E63911F1DB9DE8A0093F2D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E6391211DB9DE8A0093F2D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +85,42 @@
 		7E63913B1DB9DE8A0093F2D4 /* ViveitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViveitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E63913F1DB9DE8A0093F2D4 /* ViveitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViveitUITests.swift; sourceTree = "<group>"; };
 		7E6391411DB9DE8A0093F2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E63914F1DB9F7FC0093F2D4 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		7E6391511DB9F8320093F2D4 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		7E6391531DB9F8500093F2D4 /* Register2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register2VC.swift; sourceTree = "<group>"; };
+		7E6391551DB9F87C0093F2D4 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		7E6391571DB9F8910093F2D4 /* ForgotVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
+		7E6391591DB9F8B40093F2D4 /* DashBoardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
+		7E63915D1DB9F9170093F2D4 /* DashboardCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCustomCell.swift; sourceTree = "<group>"; };
+		7E63915F1DB9F9490093F2D4 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		7E6391631DB9F9910093F2D4 /* DetailsCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCustomCell.swift; sourceTree = "<group>"; };
+		7E6391651DB9F9AF0093F2D4 /* DescriptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionVC.swift; sourceTree = "<group>"; };
+		7E6391671DB9F9C20093F2D4 /* RegisterDashboardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDashboardVC.swift; sourceTree = "<group>"; };
+		7E6391691DB9F9D60093F2D4 /* TransactionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionVC.swift; sourceTree = "<group>"; };
+		7E63916B1DB9FA060093F2D4 /* ContactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
+		7E63916D1DB9FA1E0093F2D4 /* EditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
+		7E63916F1DB9FA300093F2D4 /* LogOutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOutVC.swift; sourceTree = "<group>"; };
+		7E6391711DB9FA410093F2D4 /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		7E6391751DB9FA720093F2D4 /* NotificationCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCustomCell.swift; sourceTree = "<group>"; };
+		7E6391771DB9FA8D0093F2D4 /* NotificationDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationDetailsVC.swift; sourceTree = "<group>"; };
+		7E6391791DB9FAA00093F2D4 /* ContactUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		7E63917B1DB9FABD0093F2D4 /* AboutUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
+		7E63917D1DB9FDCF0093F2D4 /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
+		7EA546661DFE935F0026ED95 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7EA5E9931E1E164400F30C45 /* SettlementLockerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettlementLockerVC.swift; sourceTree = "<group>"; };
+		7EA5E9951E1E257C00F30C45 /* PayTmVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTmVC.swift; sourceTree = "<group>"; };
+		7EA5E9991E1E6EF100F30C45 /* SplashScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		7EC07BF91DFA84BF00CD894B /* Viveit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Viveit-Bridging-Header.h"; sourceTree = "<group>"; };
+		7EC646C21DF978D200F3C9B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7ECFB7DF1E24CC3700552073 /* ForgotVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotVC2.swift; sourceTree = "<group>"; };
+		7ECFB7E11E24CC8800552073 /* ForgotVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotVC3.swift; sourceTree = "<group>"; };
+		7EE578881DBF83BA00029C64 /* Viveit.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Viveit.entitlements; sourceTree = "<group>"; };
+		8CF326284EF5607C37043F80 /* Pods-Viveit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viveit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viveit/Pods-Viveit.debug.xcconfig"; sourceTree = "<group>"; };
+		9E6A198C4DF6E5F89218FD7F /* Pods-Viveit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viveit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viveit/Pods-Viveit.release.xcconfig"; sourceTree = "<group>"; };
+		B7E018C6A93DFC01BF506F32 /* Pods-ViveitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViveitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViveitUITests/Pods-ViveitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D70C56EA6F60CD042B429A9D /* Pods_ViveitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViveitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9676B9C6D05836507382B25 /* Pods-ViveitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViveitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViveitTests/Pods-ViveitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4357E5BD5967C6557262603 /* Pods_Viveit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viveit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B2A4FBC6F8B693BE6A1F9D /* Pods_Viveit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D41CD7EE7CC03EEF8E525F4 /* Pods_ViveitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +144,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA9327736AB9C26ED609637 /* Pods_ViveitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EF917C0920B8D1BA956D63F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CF326284EF5607C37043F80 /* Pods-Viveit.debug.xcconfig */,
+				9E6A198C4DF6E5F89218FD7F /* Pods-Viveit.release.xcconfig */,
+				D9676B9C6D05836507382B25 /* Pods-ViveitTests.debug.xcconfig */,
+				3D861B464939F1355F66F0CF /* Pods-ViveitTests.release.xcconfig */,
+				B7E018C6A93DFC01BF506F32 /* Pods-ViveitUITests.debug.xcconfig */,
+				1B1AE43A40900B1EBE480FF1 /* Pods-ViveitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E0FF53D1DC9ABBD004314E1 /* MAIN */ = {
+			isa = PBXGroup;
+			children = (
+				7E6391231DB9DE8A0093F2D4 /* Main.storyboard */,
+				7E63911F1DB9DE8A0093F2D4 /* AppDelegate.swift */,
+				7EC07BF91DFA84BF00CD894B /* Viveit-Bridging-Header.h */,
+				7E6391211DB9DE8A0093F2D4 /* ViewController.swift */,
+				7EA546661DFE935F0026ED95 /* APIManager.swift */,
+			);
+			name = MAIN;
+			sourceTree = "<group>";
+		};
 		7E6391131DB9DE890093F2D4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +183,8 @@
 				7E6391331DB9DE8A0093F2D4 /* ViveitTests */,
 				7E63913E1DB9DE8A0093F2D4 /* ViveitUITests */,
 				7E63911D1DB9DE8A0093F2D4 /* Products */,
+				0EF917C0920B8D1BA956D63F /* Pods */,
+				B3D1569E878D281FE46D9986 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +201,14 @@
 		7E63911E1DB9DE8A0093F2D4 /* Viveit */ = {
 			isa = PBXGroup;
 			children = (
-				7E63911F1DB9DE8A0093F2D4 /* AppDelegate.swift */,
-				7E6391211DB9DE8A0093F2D4 /* ViewController.swift */,
-				7E6391231DB9DE8A0093F2D4 /* Main.storyboard */,
+				7EE578881DBF83BA00029C64 /* Viveit.entitlements */,
+				7E0FF53D1DC9ABBD004314E1 /* MAIN */,
+				7E63914D1DB9F6FB0093F2D4 /* HOME */,
+				7E63914E1DB9F71C0093F2D4 /* DASHBOARD */,
 				7E6391261DB9DE8A0093F2D4 /* Assets.xcassets */,
 				7E6391281DB9DE8A0093F2D4 /* LaunchScreen.storyboard */,
 				7E63912B1DB9DE8A0093F2D4 /* Info.plist */,
+				7EC646C21DF978D200F3C9B8 /* GoogleService-Info.plist */,
 			);
 			path = Viveit;
 			sourceTree = "<group>";
@@ -125,6 +231,58 @@
 			path = ViveitUITests;
 			sourceTree = "<group>";
 		};
+		7E63914D1DB9F6FB0093F2D4 /* HOME */ = {
+			isa = PBXGroup;
+			children = (
+				7E63917D1DB9FDCF0093F2D4 /* HomeStoryboard.storyboard */,
+				7EA5E9991E1E6EF100F30C45 /* SplashScreenVC.swift */,
+				7E63914F1DB9F7FC0093F2D4 /* HomeVC.swift */,
+				7E6391511DB9F8320093F2D4 /* RegisterVC.swift */,
+				7E6391531DB9F8500093F2D4 /* Register2VC.swift */,
+				7E6391551DB9F87C0093F2D4 /* SignInVC.swift */,
+				7E6391571DB9F8910093F2D4 /* ForgotVC.swift */,
+				7ECFB7DF1E24CC3700552073 /* ForgotVC2.swift */,
+				7ECFB7E11E24CC8800552073 /* ForgotVC3.swift */,
+			);
+			name = HOME;
+			sourceTree = "<group>";
+		};
+		7E63914E1DB9F71C0093F2D4 /* DASHBOARD */ = {
+			isa = PBXGroup;
+			children = (
+				7E27E9FA1DEEA4A9004EAC65 /* DashboardStoryboard.storyboard */,
+				7E6391591DB9F8B40093F2D4 /* DashBoardVC.swift */,
+				7E63915D1DB9F9170093F2D4 /* DashboardCustomCell.swift */,
+				7E63915F1DB9F9490093F2D4 /* DetailVC.swift */,
+				7E6391631DB9F9910093F2D4 /* DetailsCustomCell.swift */,
+				7EA5E9931E1E164400F30C45 /* SettlementLockerVC.swift */,
+				7EA5E9951E1E257C00F30C45 /* PayTmVC.swift */,
+				7E6391651DB9F9AF0093F2D4 /* DescriptionVC.swift */,
+				7E6391671DB9F9C20093F2D4 /* RegisterDashboardVC.swift */,
+				7E6391691DB9F9D60093F2D4 /* TransactionVC.swift */,
+				7E63916B1DB9FA060093F2D4 /* ContactVC.swift */,
+				7E63916D1DB9FA1E0093F2D4 /* EditVC.swift */,
+				7E63916F1DB9FA300093F2D4 /* LogOutVC.swift */,
+				7E6391711DB9FA410093F2D4 /* NotificationVC.swift */,
+				7E27E9FC1DEEB5F5004EAC65 /* NoNotificationVC.swift */,
+				7E6391751DB9FA720093F2D4 /* NotificationCustomCell.swift */,
+				7E6391771DB9FA8D0093F2D4 /* NotificationDetailsVC.swift */,
+				7E6391791DB9FAA00093F2D4 /* ContactUsVC.swift */,
+				7E63917B1DB9FABD0093F2D4 /* AboutUsVC.swift */,
+			);
+			name = DASHBOARD;
+			sourceTree = "<group>";
+		};
+		B3D1569E878D281FE46D9986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4357E5BD5967C6557262603 /* Pods_Viveit.framework */,
+				1BDF3F46459FEABB01B83303 /* Pods_ViveitTests.framework */,
+				D70C56EA6F60CD042B429A9D /* Pods_ViveitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +290,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E6391441DB9DE8A0093F2D4 /* Build configuration list for PBXNativeTarget "Viveit" */;
 			buildPhases = (
+				7C739BA115E2B331DA69FEBC /* [CP] Check Pods Manifest.lock */,
 				7E6391181DB9DE890093F2D4 /* Sources */,
 				7E6391191DB9DE890093F2D4 /* Frameworks */,
 				7E63911A1DB9DE890093F2D4 /* Resources */,
+				B46A312A91784056314D3A3C /* [CP] Embed Pods Frameworks */,
+				1180DA3E5AD72E18706BEB1E /* [CP] Copy Pods Resources */,
+				7E9B58C21DEF048400C73ECD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,9 +311,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E6391471DB9DE8A0093F2D4 /* Build configuration list for PBXNativeTarget "ViveitTests" */;
 			buildPhases = (
+				BA9F0C24D543566723850CC6 /* [CP] Check Pods Manifest.lock */,
 				7E63912C1DB9DE8A0093F2D4 /* Sources */,
 				7E63912D1DB9DE8A0093F2D4 /* Frameworks */,
 				7E63912E1DB9DE8A0093F2D4 /* Resources */,
+				77FC35131113A7C29AD40920 /* [CP] Embed Pods Frameworks */,
+				2A1783E4097BA6001E163B58 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +332,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E63914A1DB9DE8A0093F2D4 /* Build configuration list for PBXNativeTarget "ViveitUITests" */;
 			buildPhases = (
+				D91131F44D32579A1A4E0D6B /* [CP] Check Pods Manifest.lock */,
 				7E6391371DB9DE8A0093F2D4 /* Sources */,
 				7E6391381DB9DE8A0093F2D4 /* Frameworks */,
 				7E6391391DB9DE8A0093F2D4 /* Resources */,
+				C0C4B6F90F623641849E7B00 /* [CP] Embed Pods Frameworks */,
+				D417E47E9DA62B89D8BAEF40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,12 +356,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Shuvayan Saha";
 				TargetAttributes = {
 					7E63911B1DB9DE890093F2D4 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 					7E63912F1DB9DE8A0093F2D4 = {
 						CreatedOnToolsVersion = 8.0;
@@ -232,9 +412,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E27E9FB1DEEA4A9004EAC65 /* DashboardStoryboard.storyboard in Resources */,
 				7E63912A1DB9DE8A0093F2D4 /* LaunchScreen.storyboard in Resources */,
 				7E6391271DB9DE8A0093F2D4 /* Assets.xcassets in Resources */,
+				7E63917E1DB9FDCF0093F2D4 /* HomeStoryboard.storyboard in Resources */,
 				7E6391251DB9DE8A0093F2D4 /* Main.storyboard in Resources */,
+				7EC646C31DF978D200F3C9B8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +437,190 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1180DA3E5AD72E18706BEB1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viveit/Pods-Viveit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A1783E4097BA6001E163B58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViveitTests/Pods-ViveitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77FC35131113A7C29AD40920 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViveitTests/Pods-ViveitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C739BA115E2B331DA69FEBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9B58C21DEF048400C73ECD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" a6c456cd818769f3b6d3c673101071868fe96920 f371afd2e2c2c8b6ee2e5b3318de603ff12ee1158ba12ee827530844b9ffeadd";
+		};
+		B46A312A91784056314D3A3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viveit/Pods-Viveit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9F0C24D543566723850CC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0C4B6F90F623641849E7B00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViveitUITests/Pods-ViveitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D417E47E9DA62B89D8BAEF40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViveitUITests/Pods-ViveitUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D91131F44D32579A1A4E0D6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E6391181DB9DE890093F2D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA5E99A1E1E6EF100F30C45 /* SplashScreenVC.swift in Sources */,
+				7E6391701DB9FA300093F2D4 /* LogOutVC.swift in Sources */,
+				7ECFB7E01E24CC3700552073 /* ForgotVC2.swift in Sources */,
+				7E6391501DB9F7FC0093F2D4 /* HomeVC.swift in Sources */,
+				7E6391661DB9F9AF0093F2D4 /* DescriptionVC.swift in Sources */,
+				7E63916C1DB9FA060093F2D4 /* ContactVC.swift in Sources */,
+				7EA546671DFE935F0026ED95 /* APIManager.swift in Sources */,
+				7ECFB7E21E24CC8800552073 /* ForgotVC3.swift in Sources */,
+				7E6391681DB9F9C20093F2D4 /* RegisterDashboardVC.swift in Sources */,
+				7E6391581DB9F8910093F2D4 /* ForgotVC.swift in Sources */,
+				7E6391601DB9F9490093F2D4 /* DetailVC.swift in Sources */,
+				7EA5E9961E1E257C00F30C45 /* PayTmVC.swift in Sources */,
+				7E6391541DB9F8500093F2D4 /* Register2VC.swift in Sources */,
+				7E63915E1DB9F9170093F2D4 /* DashboardCustomCell.swift in Sources */,
+				7E6391761DB9FA720093F2D4 /* NotificationCustomCell.swift in Sources */,
+				7E6391561DB9F87C0093F2D4 /* SignInVC.swift in Sources */,
+				7E6391721DB9FA410093F2D4 /* NotificationVC.swift in Sources */,
+				7E63917C1DB9FABD0093F2D4 /* AboutUsVC.swift in Sources */,
+				7EA5E9941E1E164400F30C45 /* SettlementLockerVC.swift in Sources */,
+				7E63916E1DB9FA1E0093F2D4 /* EditVC.swift in Sources */,
+				7E6391521DB9F8320093F2D4 /* RegisterVC.swift in Sources */,
+				7E63917A1DB9FAA00093F2D4 /* ContactUsVC.swift in Sources */,
+				7E6391781DB9FA8D0093F2D4 /* NotificationDetailsVC.swift in Sources */,
+				7E63915A1DB9F8B40093F2D4 /* DashBoardVC.swift in Sources */,
+				7E6391641DB9F9910093F2D4 /* DetailsCustomCell.swift in Sources */,
+				7E63916A1DB9F9D60093F2D4 /* TransactionVC.swift in Sources */,
 				7E6391221DB9DE8A0093F2D4 /* ViewController.swift in Sources */,
+				7E27E9FD1DEEB5F5004EAC65 /* NoNotificationVC.swift in Sources */,
 				7E6391201DB9DE8A0093F2D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +694,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -383,6 +745,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -410,30 +773,52 @@
 		};
 		7E6391451DB9DE8A0093F2D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF326284EF5607C37043F80 /* Pods-Viveit.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Viveit/Viveit.entitlements;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Viveit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicmindtechnologies.Viveit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Viveit/Viveit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		7E6391461DB9DE8A0093F2D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6A198C4DF6E5F89218FD7F /* Pods-Viveit.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Viveit/Viveit.entitlements;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Viveit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicmindtechnologies.Viveit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Viveit/Viveit-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		7E6391481DB9DE8A0093F2D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9676B9C6D05836507382B25 /* Pods-ViveitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +833,7 @@
 		};
 		7E6391491DB9DE8A0093F2D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D861B464939F1355F66F0CF /* Pods-ViveitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +848,7 @@
 		};
 		7E63914B1DB9DE8A0093F2D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E018C6A93DFC01BF506F32 /* Pods-ViveitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ViveitUITests/Info.plist;
@@ -475,6 +862,7 @@
 		};
 		7E63914C1DB9DE8A0093F2D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1AE43A40900B1EBE480FF1 /* Pods-ViveitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ViveitUITests/Info.plist;
@@ -505,6 +893,7 @@
 				7E6391461DB9DE8A0093F2D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E6391471DB9DE8A0093F2D4 /* Build configuration list for PBXNativeTarget "ViveitTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +902,7 @@
 				7E6391491DB9DE8A0093F2D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E63914A1DB9DE8A0093F2D4 /* Build configuration list for PBXNativeTarget "ViveitUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +911,7 @@
 				7E63914C1DB9DE8A0093F2D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

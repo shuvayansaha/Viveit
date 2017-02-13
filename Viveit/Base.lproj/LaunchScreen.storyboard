@@ -1,27 +1,58 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eog-kJ-3qR">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="x4b-T1-J7Q">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController id="eog-kJ-3qR" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
-                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                        <viewControllerLayoutGuide type="top" id="TxS-tQ-p4v"/>
+                        <viewControllerLayoutGuide type="bottom" id="pGF-OA-ss5"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" contentMode="scaleToFill" id="3dw-d4-yQS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YR2-Sd-1V0" userLabel="Content View">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomeScreen" translatesAutoresizingMaskIntoConstraints="NO" id="SfG-nu-VDG">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="SfG-nu-VDG" firstAttribute="leading" secondItem="YR2-Sd-1V0" secondAttribute="leading" id="Mq3-mw-Lxh"/>
+                                    <constraint firstItem="SfG-nu-VDG" firstAttribute="top" secondItem="YR2-Sd-1V0" secondAttribute="top" id="day-PG-3U7"/>
+                                    <constraint firstAttribute="bottom" secondItem="SfG-nu-VDG" secondAttribute="bottom" id="hDc-wD-VOO"/>
+                                    <constraint firstAttribute="trailing" secondItem="SfG-nu-VDG" secondAttribute="trailing" id="tbF-Wa-9bA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pGF-OA-ss5" firstAttribute="top" secondItem="YR2-Sd-1V0" secondAttribute="bottom" id="0if-Un-2xW"/>
+                            <constraint firstAttribute="trailing" secondItem="YR2-Sd-1V0" secondAttribute="trailing" id="3Su-0y-Olh"/>
+                            <constraint firstItem="YR2-Sd-1V0" firstAttribute="leading" secondItem="3dw-d4-yQS" secondAttribute="leading" id="JsN-1m-b8l"/>
+                            <constraint firstItem="YR2-Sd-1V0" firstAttribute="top" secondItem="3dw-d4-yQS" secondAttribute="top" id="KKv-a0-iri"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="zIl-9d-enp"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R1S-wa-lTn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="-525" y="189"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="HomeScreen" width="540" height="960"/>
+    </resources>
 </document>
